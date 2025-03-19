@@ -2,9 +2,9 @@ import os
 import shutil
 
 
-DATA_ALL_DIR = os.path.join('.', 'data_all')
+DATA_ALL_DIR = os.path.join('.', 'images')
 
-DATA_OUT_DIR = os.path.join('.', 'data')
+DATA_OUT_DIR = os.path.join('../data')
 
 for set_ in ['train', 'validation', 'test']:
     for dir_ in [os.path.join(DATA_OUT_DIR, set_),
